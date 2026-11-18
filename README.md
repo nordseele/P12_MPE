@@ -1,7 +1,7 @@
-# p12-mod
+# P12 M
 
-Unofficial firmware modification for the Sequential (Dave Smith Instruments)
-Prophet 12 keyboard, Main OS 1.4.2.3. It adds **MPE** (MIDI Polyphonic
+**P12 M** (repository `p12-mod`) is an unofficial firmware modification for the Sequential (Dave Smith
+Instruments) Prophet 12 keyboard, Main OS 1.4.2.3. It adds **MPE** (MIDI Polyphonic
 Expression): per-note pitch bend, pressure and timbre (Y, CC74) from an MPE
 controller such as a LinnStrument, with up to twelve independent voices.
 
@@ -75,6 +75,14 @@ Prophet 12, including the exact build this repository produces.
 </p>
 
 *The MPE rows of the Global menu, and the X / Y / Z sources in the mod matrix.*
+
+## What's next
+
+MPE is the first part of P12 M. I'm working on more tools that will join it
+later, played directly on the instrument: an onboard randomizer that varies a
+program section by section (oscillators, filter, envelopes, modulation...), a
+morph between two stored programs, and other helpers for sound design. They
+already run on my Prophet 12, but they are not ready to share yet.
 
 ## Settings
 
