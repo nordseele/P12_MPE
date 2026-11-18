@@ -1,0 +1,11 @@
+#!/bin/sh
+# Run one tool of the GNU MIPS cross toolchain (see Dockerfile) on host
+# paths: the repository and the temporary directory are mounted at their
+# host paths, so arguments need no translation.
+set -e
+image=${P12_GNU_MIPS_IMAGE:-p12-gnu-mips}
+root=$(cd "$(dirname "$0")/../.." && pwd)
+tmp=${TMPDIR:-/tmp}
+tmp=${tmp%/}
+exec docker run --rm -u "$(id -u):$(id -g)" \
+    -v "$root:$root" -v "$tmp:$tmp" -w "$PWD" "$image" "$@"

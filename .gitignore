@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Firmware stays local: build from your own copy of the official update.
+firmware/official/
+firmware/extracted/
+firmware/patched/
+*.bin
+*.syx
+*.lst
+
+# Generated MIDI demos (tools/make_mpe_demo.py)
+demos/
