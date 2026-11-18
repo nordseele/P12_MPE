@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Decode a MIDI log recorded from the UI debug image into a control table.
 
 The UI debug image (tools/make_mpe_image.py --ui-debug) sends one SysEx per

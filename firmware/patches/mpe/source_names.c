@@ -1,3 +1,4 @@
+/* Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md. */
 /* MPE names for three mod-matrix sources (--xyz-source-names). The stock
  * source-name pointer table at 0x9d06d4b4 (one pointer per DSP source ID,
  * read by 0x9d01afac) is redirected to these strings for Pitchbend (0xd),

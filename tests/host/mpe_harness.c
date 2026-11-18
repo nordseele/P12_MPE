@@ -1,3 +1,4 @@
+/* Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md. */
 /*
  * Host harness for firmware/patches/mpe/mpe.c.
  *

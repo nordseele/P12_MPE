@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Rebuild the SHARC boot stream of the Prophet 12 with overlay blocks appended.
 
 The application is one zlib block inside the stream (tools/extract_dsp_ldr.py).

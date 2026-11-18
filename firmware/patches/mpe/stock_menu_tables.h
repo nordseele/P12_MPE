@@ -1,3 +1,4 @@
+/* Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md. */
 /* Stock Global menu tables of Main OS 1.4.2.3, copied into the relocated
  * tables. Generated from the canonical image; tools/make_mpe_image.py checks
  * them against the image at every build. */

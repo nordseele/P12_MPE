@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Build the experimental MPE test image (test 5) for Main OS 1.4.2.3.
 
 Compiles firmware/patches/mpe/ with a standard GNU MIPS cross toolchain

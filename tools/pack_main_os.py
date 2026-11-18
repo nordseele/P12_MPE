@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Pack a raw Prophet 12 PIC32 image into a Main OS SysEx container."""
 
 from __future__ import annotations

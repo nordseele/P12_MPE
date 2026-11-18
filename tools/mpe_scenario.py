@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Play MPE test scenarios to the Prophet 12 over MIDI (listen to the result).
 
   python3 tools/mpe_scenario.py stale-note-off [--port mio] [--channel 2]

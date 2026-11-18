@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Extract the SHARC boot stream (ADI .ldr) embedded in the Prophet 12 PIC32 image.
 
 The PIC32 broadcasts 0xbbc4 32-bit words starting at 0x9d0399e8 to the six

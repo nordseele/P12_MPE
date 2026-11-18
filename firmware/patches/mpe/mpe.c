@@ -1,3 +1,4 @@
+/* Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md. */
 /*
  * Prophet 12 Main OS 1.4.2.3 - experimental MPE patch, test image 3.
  *

@@ -1,3 +1,4 @@
+/* Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md. */
 /* Replaces "lw a0,0(s3)" at 0x9d005e30 in the DSP boot sender loop with
  * "jal dsp_stream_fetch"; the delay slot (clear v1) is unchanged. Returns
  * word s2 of the rebuilt stream in a0 and keeps v1 = 0 for the loop. */

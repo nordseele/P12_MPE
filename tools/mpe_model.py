@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Host-side reference model for the Prophet 12 MPE design, revision 2.
 
 This is an executable specification of ``research/mpe_design.md`` (six MPE

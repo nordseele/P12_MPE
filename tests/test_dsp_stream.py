@@ -1,3 +1,4 @@
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Checks for tools/build_dsp_stream.py (needs the canonical image, Git-ignored)."""
 
 from __future__ import annotations

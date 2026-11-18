@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Per-voice pitch-bend overlay for the SHARC DSP program (Main OS 1.4.2.3).
 
 Prototype, not tested on hardware. Design: research/sharc_dsp_patch_feasibility.md.

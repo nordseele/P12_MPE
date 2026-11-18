@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Build the single-voice pitch-bend hardware test image (experimental).
 
 The patch reroutes the Normal-mode pitch-bend broadcast to one physical voice so

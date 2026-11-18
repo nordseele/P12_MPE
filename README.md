@@ -13,7 +13,7 @@ Sequential; the build checks that file's hash first.
 > [!WARNING]
 > **Unofficial, experimental firmware — use at your own risk.** This project is
 > not affiliated with or endorsed by Sequential, and it is provided **as-is,
-> with no warranty** (see the [MIT licence](LICENSE)).
+> with no warranty** (see the [GPL](LICENSE), sections 15-16).
 >
 > - Installing it **replaces the operating system of your Prophet 12.** If
 >   something goes wrong, you may have to restore the official OS, and in the
@@ -165,7 +165,16 @@ Operating System"). Test at low volume the first time, without headphones.
 
 ## Licence
 
-MIT, see [LICENSE](LICENSE). It covers the code in this repository only, not
-Sequential's firmware that the build modifies. "Prophet 12" and "Sequential"
-are trademarks of their owners and are used here only to say which instrument
-this modification is for.
+Copyright (c) 2026 nordseele.
+
+P12 M is free software under the **GNU General Public License, version 3 or
+later** ([LICENSE](LICENSE)), with an additional permission
+([LICENSE-EXCEPTION.md](LICENSE-EXCEPTION.md)) that allows combining it with
+the Prophet 12 firmware, which the GPL alone would not. In short: you may use,
+study, change and share this code; if you distribute a modified version, you
+must keep the copyright notices and publish your changes under the same terms.
+
+The licence covers the code in this repository only, not Sequential's
+firmware that the build modifies. "Prophet 12" and "Sequential" are trademarks
+of their owners and are used here only to say which instrument this
+modification is for.

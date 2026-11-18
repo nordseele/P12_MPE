@@ -1,3 +1,4 @@
+/* Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md. */
 /* DSP boot stream redirection (research/sharc_dsp_patch_feasibility.md).
  *
  * The stock sender loop at 0x9d005e1c reads word s2 of the SHARC boot stream

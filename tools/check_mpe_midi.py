@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Check MPE demo files: controllers before every Note On, no overlapping
 notes per channel, polyphony, and peak DIN load (bytes per second over
 100 ms windows; DIN MIDI carries about 3,125). Usage: check_mpe_midi.py FILE...

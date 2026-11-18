@@ -1,3 +1,4 @@
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Checks for the experimental MPE test image (research/mpe_test_image.md).
 
 Two parts, each skipped when its tool is missing:

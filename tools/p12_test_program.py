@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Send the MPE test program to the Prophet 12 edit buffer over NRPN (not saved).
 
   python3 tools/p12_test_program.py [--stack] [--port mio] [--dry-run]

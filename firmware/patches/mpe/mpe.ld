@@ -1,3 +1,4 @@
+/* Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md. */
 /* Link the MPE patch into the free flash after the linked application image
  * (research/memory_placement.md). Only .text and .rodata are allowed; any
  * writable section is a build error, checked by tools/make_mpe_image.py. */

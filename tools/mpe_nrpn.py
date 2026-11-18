@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Set the MPE Global settings over NRPN (P12-test-10 and later).
 
   python3 tools/mpe_nrpn.py voices=12 y=matrix [--port mio]

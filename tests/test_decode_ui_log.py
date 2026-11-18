@@ -1,3 +1,4 @@
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Checks for tools/decode_ui_log.py."""
 
 from __future__ import annotations

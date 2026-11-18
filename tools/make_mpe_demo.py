@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright (c) 2026 nordseele. GPL-3.0-or-later with an additional permission: see LICENSE and LICENSE-EXCEPTION.md.
 """Write MPE demo and test MIDI files for the Prophet 12 MPE firmware.
 
 Standard MIDI files (format 0), no dependencies. MPE Lower Zone: manager
