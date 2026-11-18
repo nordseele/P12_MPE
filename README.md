@@ -47,6 +47,11 @@ independent MPE voices in Normal mode, but only three in Stack mode, which was
 a bit disappointing. After more digging into the DSP code, it now reaches
 twelve independent MPE voices, and six in Stack mode.
 
+**How it was made.** Yes, the code was written by AI (Claude, through
+Claude Code), under my direction: I set the goals, made the design decisions
+and reviewed the results. All hardware testing was done by me, on my own
+Prophet 12, including the exact build this repository produces.
+
 Discussion:
 [Sequential forum thread](https://forum.sequential.com/index.php/topic,8979.msg74123.html).
 
