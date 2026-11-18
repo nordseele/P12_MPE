@@ -10,10 +10,45 @@ firmware image and no Sequential code. You build the modified update yourself
 from the official `P12_Keyboard_Main_1.4.2.3.syx` that you download from
 Sequential; the build checks that file's hash first.
 
-> **Read this first.** This is an unofficial, experimental modification, not
-> affiliated with or endorsed by Sequential. Installing it replaces the
-> Prophet 12 operating system. It has been tested on one unit only. You use it
-> at your own risk; see [Recovery](#recovery) before you install anything.
+> [!WARNING]
+> **Unofficial, experimental firmware — use at your own risk.** This project is
+> not affiliated with or endorsed by Sequential, and it is provided **as-is,
+> with no warranty** (see the [MIT licence](LICENSE)).
+>
+> - Installing it **replaces the operating system of your Prophet 12.** If
+>   something goes wrong, you may have to restore the official OS, and in the
+>   worst case open the instrument and reprogram its processor with an ICSP
+>   programmer.
+> - It also **changes the program of the six DSPs.** Test it at **low volume
+>   and without headphones** the first time: faulty DSP code can produce
+>   full-scale noise.
+> - It has been tested on **one unit only.**
+> - **Back up your programs first** (SysEx dump), and read
+>   [Recovery](#recovery) before you install anything. Make sure you can send
+>   a SysEx file to the Prophet 12 over 5-pin MIDI.
+>
+> You are responsible for what you install on your instrument.
+
+## Why
+
+I had been dreaming about this for a long time. Since it had almost no chance
+of ever showing up in an official firmware, I did it myself: full MPE support
+for the Prophet 12, from an external controller. The Prophet 12 already
+responded to poly aftertouch, but I really missed per-voice pitch bend, and
+CC74 was hardwired to the cutoff.
+
+I've owned my Prophet 12 since it came out. The following year I bought a
+LinnStrument, and both instruments are very dear to me; I'm a big MPE fan.
+More recently I got an Osmose, and I'm thrilled to be able to play the
+Prophet 12, still my favourite synth, with it.
+
+My first version only changed the main processor (the PIC32). That gave six
+independent MPE voices in Normal mode, but only three in Stack mode, which was
+a bit disappointing. After more digging into the DSP code, it now reaches
+twelve independent MPE voices, and six in Stack mode.
+
+Discussion:
+[Sequential forum thread](https://forum.sequential.com/index.php/topic,8979.msg74123.html).
 
 ## What it adds
 
@@ -113,7 +148,7 @@ Operating System"). Test at low volume the first time, without headphones.
 ## Known limits
 
 - Only Main OS 1.4.2.3, keyboard version.
-- Tested on one unit, with a LinnStrument. Larger bend ranges than 48 are
+- Tested on one unit, with a LinnStrument and an Osmose. Larger bend ranges than 48 are
   untested.
 - Design and reverse-engineering notes referenced in source comments as
   `research/...` are not published yet.
