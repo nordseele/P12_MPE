@@ -29,6 +29,15 @@ Sequential; the build checks that file's hash first.
 - **Stack and Split** programs and the **arpeggiator** with per-note MPE, or a
   fallback that plays MPE notes as ordinary notes.
 - Eight new rows in the **Global** menu, also reachable over **NRPN**.
+- The three MPE dimensions are named in the mod matrix: `X: Pitchbend`,
+  `Y: Timbre`, `Z: Pressure`.
+
+<p>
+  <img src="docs/images/global-menu-mpe-rows.jpg" width="49%" alt="Global menu showing the MPE rows: 36. MPE Voices set to 12 Voices, 37. MPE Bend Range 48, 38. MPE Y > Timbre set to Matrix">
+  <img src="docs/images/mod-matrix-xyz-sources.jpg" width="49%" alt="Mod matrix with the sources Y: Timbre to LPF Cutoff, X: Pitchbend and Z: Pressure to Drive">
+</p>
+
+*The MPE rows of the Global menu, and the X / Y / Z sources in the mod matrix.*
 
 ## Settings
 
