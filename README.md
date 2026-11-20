@@ -163,6 +163,11 @@ Operating System"). Test at low volume the first time, without headphones.
 - Design and reverse-engineering notes referenced in source comments as
   `research/...` are not published yet.
 
+## Support
+
+If you find this mod useful, you can buy me a coffee on
+[Ko-fi](https://ko-fi.com/bumathan). Thank you!
+
 ## Licence
 
 Copyright (c) 2026 nordseele.
